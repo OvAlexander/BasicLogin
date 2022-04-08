@@ -20,9 +20,15 @@ session_start();
 		$query = "SELECT id, user, date FROM users";
 		$result = $con->query($query);
 		if($result->num_rows>0){
+		echo "<table>";
 			while($row = $result->fetch_assoc()){
-				echo "ID: " . $row["id"] . " Name: " . $row["user"]. "Date of check in: " . $row["date"] . "<br>";
+				echo "<tr>";
+				echo "<td>$row[id]</td>";
+				echo "<td>$row[user]</td>";
+				echo "<td>$row[date]</td>";
+				echo "</tr>";
 			}
+		echo "</table";
 		} else {
 			echo "no results";
 		}
