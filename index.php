@@ -9,9 +9,14 @@ session_start();
 <html>
 <head>
 	<title>Login Check</title>
+	<link rel ="stylesheet" href="style.css">
 </head>
 <body>
-	<a href="login.php">login</a>
+	<div class="header">
+		<div class="header-right">
+			<a href="login.php">Login</a>
+		</div>
+	</div>
 	<h1>Index page</h1>
 	<br>
 	Past Users<br>

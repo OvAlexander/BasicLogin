@@ -1,7 +1,9 @@
 ﻿body {
+    color: white;
+    background-color: #373E98;
 }
 #text{
-    height:225px;
+    height:auto;
     border-radius: 5px;
     padding: 4px;
     border: solid thin #aaa;
@@ -9,13 +11,32 @@
 #button{
     padding:10px;
     width: 100px;
-    color: white;
-    background-color: lightblue;
+    color: black;
+    background-color: #FEE36E;
     border: none;
 }
 #box{
-    background-color: grey;
+    background-color: #F16775;
     margin: auto;
     width: 300px;
     padding: 20px;
+}
+.header {
+    padding: 10px 10px;
+    overflow: hidden;
+
+    background: #1abc9c;
+    
+}
+.header a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header-right {
+    float: right;
 }
